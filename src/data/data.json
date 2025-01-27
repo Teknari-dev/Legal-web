@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Derecho a la dignidad",
+        "keywords": [
+            "Justicia",
+            "dignidad",
+            "derechos humanos"
+        ],
+        "estructura": "La dignidad es un derecho fundamental que debe ser protegido.",
+        "criterios": "La dignidad debe ser respetada en todos los procesos legales."
+    },
+    {
+        "title": "Derecho a un juicio justo",
+        "keywords": [
+            "Justicia",
+            "juicio",
+            "legal"
+        ],
+        "estructura": "Un juicio justo es esencial para garantizar la equidad.",
+        "criterios": "Todos tienen derecho a un juicio imparcial y transparente."
+    },
+    {
+        "title": "Justicia social",
+        "keywords": [
+            "Justicia",
+            "equidad",
+            "social"
+        ],
+        "estructura": "La justicia social busca reducir las desigualdades.",
+        "criterios": "La equidad es un pilar fundamental de la justicia social."
+    }
+]

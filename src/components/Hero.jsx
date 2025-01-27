@@ -1,10 +1,12 @@
 import { useNavigate } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 
 const Hero = () => {
     const navigate = useNavigate();
+    const [searchTerm, setSearchTerm] = useState("");
 
     const handleSearch = () => {
-        navigate("/search"); // Navega a la página de búsqueda
+        navigate(`/search?q=${encodeURIComponent(searchTerm)}`); // Redirige con el término de búsqueda
     };
 
     return (
@@ -16,6 +18,8 @@ const Hero = () => {
                     type="text"
                     placeholder="Buscar"
                     className="flex-grow px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-secondary"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
                 />
                 <button
                     onClick={handleSearch}
