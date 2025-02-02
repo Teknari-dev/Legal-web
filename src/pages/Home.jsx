@@ -1,15 +1,22 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
-import LawList from '../components/LawList';
+import Footer from '../components/Footer';
 
 const App = () => {
     return (
-        <>
+        <div className="min-h-screen flex flex-col">
+            {/* Navbar */}
             <Navbar />
+
+            {/* Hero (ocupa el espacio restante) */}
+
             <Hero />
-            <LawList />
-        </>
+
+
+            {/* Footer */}
+            <Footer />
+        </div>
     );
 };
 

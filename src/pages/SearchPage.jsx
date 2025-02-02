@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import data from "../data/data.json"; // Importamos el JSON
 import { useLocation } from "react-router-dom";
+import Footer from '../components/Footer';
 
 const SearchPage = () => {
     const [searchTerm, setSearchTerm] = useState("");
@@ -31,12 +32,12 @@ const SearchPage = () => {
     }, [location]);
 
     return (
-        <>
+        <div className="min-h-screen flex flex-col">
             {/* Navbar */}
             <Navbar />
 
             {/* Contenido Principal */}
-            <main className="md:mt-24 mt-36 bg-bg2 pb-12">
+            <main className="flex-grow md:mt-24 mt-36 bg-bg2 pb-12">
                 {/* Filtros y Búsqueda */}
                 <div className="flex flex-col items-center justify-center mb-6">
                     <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
@@ -125,7 +126,10 @@ const SearchPage = () => {
                     </div>
                 </div>
             </main>
-        </>
+
+            {/* Footer */}
+            <Footer />
+        </div>
     );
 };
 
