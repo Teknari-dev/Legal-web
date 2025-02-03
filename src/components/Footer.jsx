@@ -12,7 +12,13 @@ const ModalIntegrantes = ({ isOpen, onClose }) => {
                     <li>Gustavo Montejo Santo</li>
                     <li>José Manuel Morales Guerrero</li>
                     <br />
-                    <li>Grupo de investigación de cómputo aplicado</li>
+                </ul>
+                <h2 className="text-lg font-bold text-center mb-4 text-primary">Grupo de investigación de cómputo aplicado</h2>
+                <ul className="text-center text-primary">
+                    <li>Arturo Corona Ferreira</li>
+                    <li>Carlos Arturo Custodio izquierdo</li>
+                    <li>Jose Luis Gómez Ramos</li>
+                    <li>Carlos González Zacarías</li>
                 </ul>
                 <div className="flex justify-center mt-4">
                     <button
