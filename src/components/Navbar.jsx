@@ -31,7 +31,7 @@ const Navbar = () => {
                                 <a href="#" className="text-secondary hover:underline">Francés</a>
                             </nav>
                             {/* Botón del menú hamburguesa */}
-                            <button
+                            {/*  <button
                                 onClick={toggleMenu}
                                 className="p-2 rounded-lg hover:bg-gray-200 focus:outline-none"
                                 aria-label="Abrir menú"
@@ -50,7 +50,7 @@ const Navbar = () => {
                                         d="M4 6h16M4 12h16m-7 6h7"
                                     />
                                 </svg>
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </div>
