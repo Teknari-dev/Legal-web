@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import data from "../data/data.json"; // Importamos el JSON
 import { useLocation } from "react-router-dom";
 import Footer from '../components/Footer';
+import { GlobeAltIcon } from '@heroicons/react/24/outline'; // Importar el ícono de globo
 
 const SearchPage = () => {
     const [searchTerm, setSearchTerm] = useState("");
@@ -15,9 +16,11 @@ const SearchPage = () => {
             item.keywords.some(keyword =>
                 keyword.toLowerCase().includes(term.toLowerCase()) // Busca coincidencias parciales en keywords
             ) ||
-            item.title.toLowerCase().includes(term.toLowerCase()) || // Busca coincidencias parciales en el título
+            item.titulo.toLowerCase().includes(term.toLowerCase()) || // Busca coincidencias parciales en el título
             item.estructura.toLowerCase().includes(term.toLowerCase()) || // Busca coincidencias parciales en la estructura
-            item.criterios.toLowerCase().includes(term.toLowerCase()) // Busca coincidencias parciales en los criterios
+            item.criterios.some(criterio => // Busca coincidencias parciales en los criterios
+                criterio.toLowerCase().includes(term.toLowerCase())
+            )
         );
         setFilteredResults(results);
     };
@@ -69,7 +72,7 @@ const SearchPage = () => {
                             {filteredResults.length > 0 ? (
                                 filteredResults.map((result, index) => (
                                     <li key={index} className="text-secondary text-base">
-                                        {result.title}
+                                        {result.titulo}
                                     </li>
                                 ))
                             ) : (
@@ -86,15 +89,55 @@ const SearchPage = () => {
                             <ul className="space-y-6 bg-bg1 p-4">
                                 {filteredResults.length > 0 ? (
                                     filteredResults.map((result, index) => (
-                                        <li key={index} className="flex items-center space-x-6">
-                                            <img
-                                                src="/estructura1.png"
-                                                alt="Estructura"
-                                                className="w-32 h-32 object-cover border border-gray-300 rounded-md"
-                                            />
-                                            <span className="text-secondary">
-                                                {result.estructura}
-                                            </span>
+                                        <li key={index} className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
+                                            {/* Título en la parte de estructuras */}
+                                            <p className="text-primary sm:hidden">
+                                                {result.titulo}
+                                            </p>
+
+                                            {/* Tres íconos para los documentos en español, francés e inglés */}
+                                            <div className="flex flex-row sm:space-y-0 space-x-4">
+                                                <a
+                                                    href={result.esp}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="text-primary hover:text-primary-dark transition flex flex-col items-center"
+                                                    title="Documento en español"
+                                                >
+                                                    <GlobeAltIcon className="w-8 h-8" />
+                                                    <span className="text-sm mt-1">ES</span>
+                                                </a>
+                                                <a
+                                                    href={result.fr}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="text-primary hover:text-primary-dark transition flex flex-col items-center"
+                                                    title="Documento en francés"
+                                                >
+                                                    <GlobeAltIcon className="w-8 h-8" />
+                                                    <span className="text-sm mt-1">FR</span>
+                                                </a>
+                                                <a
+                                                    href={result.ing}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="text-primary hover:text-primary-dark transition flex flex-col items-center"
+                                                    title="Documento en inglés"
+                                                >
+                                                    <GlobeAltIcon className="w-8 h-8" />
+                                                    <span className="text-sm mt-1">EN</span>
+                                                </a>
+                                            </div>
+
+                                            {/* Estructura y título (visible en pantallas grandes) */}
+                                            <div className="flex-1">
+                                                <p className=" text-primary hidden sm:block">
+                                                    {result.titulo}
+                                                </p>
+                                                <span className="text-secondary">
+                                                    {result.estructura}
+                                                </span>
+                                            </div>
                                         </li>
                                     ))
                                 ) : (
@@ -109,13 +152,15 @@ const SearchPage = () => {
                             <ul className="space-y-6 bg-bg1 p-4">
                                 {filteredResults.length > 0 ? (
                                     filteredResults.map((result, index) => (
-                                        <li key={index}>
-                                            <p className="text-primary">
-                                                {result.title}
+                                        <li className="flex flex-col space-y-2 sm:space-x-6" key={index}>
+                                            <p className="text-primary text-center sm:text-start">
+                                                {result.titulo}
                                             </p>
-                                            <p className="text-sm text-secondary mt-1">
-                                                {result.criterios}
-                                            </p>
+                                            <ul className="text-sm text-secondary mt-1 list-disc pl-6">
+                                                {result.criterios.map((criterio, idx) => (
+                                                    <li key={idx}>{criterio}</li>
+                                                ))}
+                                            </ul>
                                         </li>
                                     ))
                                 ) : (

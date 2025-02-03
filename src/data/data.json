@@ -1,122 +1,47 @@
 [
     {
-        "title": "Derecho a la dignidad",
+        "titulo": "Derecho De Los Refugiados",
         "keywords": [
-            "Justicia",
-            "dignidad",
-            "derechos humanos",
-            "respeto",
-            "valor intrínseco"
+            "Refugiados",
+            "Protección Internacional",
+            "Migrantes",
+            "Asilo",
+            "Derechos Humanos"
         ],
-        "estructura": "La dignidad es un derecho fundamental que debe ser protegido en todas las circunstancias, tanto en la vida pública como privada.",
-        "criterios": "La dignidad debe ser respetada en todos los procesos legales, asegurando que ningún individuo sea tratado de manera inhumana o degradante."
+        "estructura": "Define quién es considerado refugiado y detalla sus derechos, obligaciones estatales, instrumentos internacionales, principios asociados y mecanismos para garantizar su protección y evitar violaciones.",
+        "criterios": [
+            "Refugiados",
+            "Protección Internacional",
+            "Migrantes",
+            "Asilo",
+            "Derechos Humanos",
+            "Igualdad",
+            "No Discriminación"
+        ],
+        "esp": "https://drive.google.com/file/d/1_GurWWIerhzpekZ0m4hWLx5a4ThwK86D/view?usp=sharing",
+        "fr": "https://drive.google.com/file/d/1E2GwVLP8uAt01m-g6xE0Dn9DIggK3IRH/view?usp=sharing",
+        "ing": "https://drive.google.com/file/d/1-xiCN8mU84wxejkFzc6QUDbWrLjc0TUx/view?usp=sharing"
     },
     {
-        "title": "Derecho a un juicio justo",
+        "titulo": "Derecho De Las Personas Migrantes",
         "keywords": [
-            "Justicia",
-            "juicio",
-            "legal",
-            "imparcialidad",
-            "transparencia"
+            "Migrantes",
+            "Derechos Humanos",
+            "Protección Social",
+            "Migración",
+            "Igualdad"
         ],
-        "estructura": "Un juicio justo es esencial para garantizar la equidad y debe incluir la posibilidad de una defensa adecuada.",
-        "criterios": "Todos tienen derecho a un juicio imparcial y transparente, con acceso a todas las pruebas y recursos necesarios para su defensa."
-    },
-    {
-        "title": "Justicia social",
-        "keywords": [
-            "Justicia",
-            "equidad",
-            "social",
-            "igualdad",
-            "bienestar"
+        "estructura": "Aborda los derechos y principios aplicables a las personas migrantes, incluyendo protección contra abusos, acceso a justicia, integración social, y garantías de igualdad y no discriminación.",
+        "criterios": [
+            "Migrantes",
+            "Derechos Humanos",
+            "Protección Social",
+            "Igualdad",
+            "No Discriminación",
+            "Acceso A Justicia"
         ],
-        "estructura": "La justicia social busca reducir las desigualdades y promover un acceso equitativo a los recursos y oportunidades.",
-        "criterios": "La equidad es un pilar fundamental de la justicia social, asegurando que todos los miembros de la sociedad tengan las mismas oportunidades."
-    },
-    {
-        "title": "Derecho a la privacidad",
-        "keywords": [
-            "privacidad",
-            "datos personales",
-            "confidencialidad",
-            "intimidad",
-            "seguridad"
-        ],
-        "estructura": "El derecho a la privacidad protege la información personal y la intimidad de los individuos frente a intrusiones no autorizadas.",
-        "criterios": "Este derecho asegura que los datos personales sean manejados con confidencialidad y solo con el consentimiento del individuo."
-    },
-    {
-        "title": "Libertad de expresión",
-        "keywords": [
-            "expresión",
-            "libertad",
-            "opinión",
-            "prensa",
-            "censura"
-        ],
-        "estructura": "La libertad de expresión es un derecho fundamental que permite a los individuos expresar sus opiniones sin miedo a represalias.",
-        "criterios": "Este derecho debe ser protegido siempre que no incite a la violencia o al odio, y respete los derechos de los demás."
-    },
-    {
-        "title": "Derecho a la educación",
-        "keywords": [
-            "educación",
-            "aprendizaje",
-            "acceso",
-            "calidad",
-            "equidad"
-        ],
-        "estructura": "El derecho a la educación garantiza que todos los individuos tengan acceso a una educación de calidad sin discriminación.",
-        "criterios": "Este derecho incluye la obligación del estado de proporcionar recursos adecuados y eliminar barreras para el acceso educativo."
-    },
-    {
-        "title": "Derecho a la salud",
-        "keywords": [
-            "salud",
-            "bienestar",
-            "acceso",
-            "cuidado médico",
-            "prevención"
-        ],
-        "estructura": "El derecho a la salud garantiza que todas las personas tengan acceso a servicios médicos adecuados y de calidad.",
-        "criterios": "Este derecho implica que los gobiernos deben garantizar la disponibilidad, accesibilidad y calidad de los servicios de salud."
-    },
-    {
-        "title": "Derecho al trabajo",
-        "keywords": [
-            "trabajo",
-            "empleo",
-            "derechos laborales",
-            "condiciones justas",
-            "remuneración"
-        ],
-        "estructura": "El derecho al trabajo asegura que todas las personas tengan acceso a un empleo digno y condiciones laborales justas.",
-        "criterios": "Este derecho incluye la protección contra el desempleo, la no discriminación y la garantía de un salario justo."
-    },
-    {
-        "title": "Derecho a la propiedad",
-        "keywords": [
-            "propiedad",
-            "posesión",
-            "bienes",
-            "derechos patrimoniales",
-            "expropiación"
-        ],
-        "estructura": "El derecho a la propiedad protege la posesión y uso de bienes personales, tanto materiales como intelectuales.",
-        "criterios": "Este derecho garantiza que nadie sea privado de su propiedad sin un proceso legal justo y una compensación adecuada."
-    },
-    {
-        "title": "Derecho a la libertad de reunión",
-        "keywords": [
-            "reunión",
-            "asociación",
-            "protesta",
-            "manifestación",
-            "libertad"
-        ],
-        "estructura": "El derecho a la libertad de reunión permite a las personas congregarse pacíficamente para expresar sus ideas o demandas.",
-        "criterios": "Este derecho debe ser respetado siempre que las reuniones sean pacíficas y no infrinjan los derechos de terceros."
+        "esp": "https://drive.google.com/file/d/1DlqadvQWsSluRhtX2M65Z0VLDjnWsuVp/view?usp=sharing",
+        "fr": "https://drive.google.com/file/d/1kPZ9JY9BYLI2vN1RGgU4y2ZwnF-g57-l/view?usp=sharing",
+        "ing": "https://drive.google.com/file/d/1YUP-ZRhrCTOnC77Xr8ELwyFxBJ6q5b5v/view?usp=sharing"
     }
 ]
