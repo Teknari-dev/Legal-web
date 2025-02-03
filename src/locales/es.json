@@ -1,0 +1,19 @@
+{
+    "home": {
+        "title": "LEYES.COM",
+        "subtitle": "¿Qué deseas aprender hoy?",
+        "searchPlaceholder": "Buscar",
+        "searchButton": "Buscar"
+    },
+    "search": {
+        "results": "Resultados",
+        "noResults": "No se encontraron resultados.",
+        "structures": "Estructuras",
+        "criteria": "Criterios"
+    },
+    "footer": {
+        "team": "Equipo de desarrollo",
+        "team2": "Grupo de investigación de cómputo aplicado",
+        "close": "Cerrar"
+    }
+}

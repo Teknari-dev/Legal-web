@@ -1,0 +1,19 @@
+{
+    "home": {
+        "title": "LAWS.COM",
+        "subtitle": "What do you want to learn today?",
+        "searchPlaceholder": "Search",
+        "searchButton": "Search"
+    },
+    "search": {
+        "results": "Results",
+        "noResults": "No results found.",
+        "structures": "Structures",
+        "criteria": "Criteria"
+    },
+    "footer": {
+        "team": "Development Team",
+        "team2": "Applied Computing Research Group",
+        "close": "Close"
+    }
+}

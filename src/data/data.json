@@ -1,45 +1,119 @@
 [
     {
-        "titulo": "Derecho De Los Refugiados",
+        "titulo": {
+            "es": "Derecho De Los Refugiados",
+            "en": "Refugee Rights",
+            "fr": "Droit des Réfugiés"
+        },
         "keywords": [
             "Refugiados",
             "Protección Internacional",
             "Migrantes",
             "Asilo",
-            "Derechos Humanos"
-        ],
-        "estructura": "Define quién es considerado refugiado y detalla sus derechos, obligaciones estatales, instrumentos internacionales, principios asociados y mecanismos para garantizar su protección y evitar violaciones.",
-        "criterios": [
-            "Refugiados",
-            "Protección Internacional",
-            "Migrantes",
-            "Asilo",
             "Derechos Humanos",
-            "Igualdad",
-            "No Discriminación"
+            "Réfugiés",
+            "Protection internationale",
+            "Migrants",
+            "Asile",
+            "Droits de l'homme",
+            "Refugees",
+            "International Protection",
+            "Migrants",
+            "Asylum",
+            "Human Rights"
         ],
+        "estructura": {
+            "es": "Define quién es considerado refugiado y detalla sus derechos, obligaciones estatales, instrumentos internacionales, principios asociados y mecanismos para garantizar su protección y evitar violaciones.",
+            "en": "Defines who is considered a refugee and details their rights, state obligations, international instruments, associated principles, and mechanisms to ensure their protection and prevent violations.",
+            "fr": "Définit qui est considéré comme un réfugié et détaille ses droits, les obligations de l'État, les instruments internationaux, les principes associés et les mécanismes pour assurer leur protection et prévenir les violations."
+        },
+        "criterios": {
+            "es": [
+                "Refugiados",
+                "Protección Internacional",
+                "Migrantes",
+                "Asilo",
+                "Derechos Humanos",
+                "Igualdad",
+                "No Discriminación"
+            ],
+            "en": [
+                "Refugees",
+                "International Protection",
+                "Migrants",
+                "Asylum",
+                "Human Rights",
+                "Equality",
+                "Non-Discrimination"
+            ],
+            "fr": [
+                "Réfugiés",
+                "Protection internationale",
+                "Migrants",
+                "Asile",
+                "Droits de l'homme",
+                "Égalité",
+                "Non-discrimination"
+            ]
+        },
         "esp": "https://drive.google.com/file/d/1_GurWWIerhzpekZ0m4hWLx5a4ThwK86D/view?usp=sharing",
         "fr": "https://drive.google.com/file/d/1E2GwVLP8uAt01m-g6xE0Dn9DIggK3IRH/view?usp=sharing",
         "ing": "https://drive.google.com/file/d/1-xiCN8mU84wxejkFzc6QUDbWrLjc0TUx/view?usp=sharing"
     },
     {
-        "titulo": "Derecho De Las Personas Migrantes",
+        "titulo": {
+            "es": "Derecho De Las Personas Migrantes",
+            "en": "Rights of Migrants",
+            "fr": "Droit des Migrants"
+        },
         "keywords": [
             "Migrantes",
             "Derechos Humanos",
             "Protección Social",
             "Migración",
-            "Igualdad"
-        ],
-        "estructura": "Aborda los derechos y principios aplicables a las personas migrantes, incluyendo protección contra abusos, acceso a justicia, integración social, y garantías de igualdad y no discriminación.",
-        "criterios": [
-            "Migrantes",
-            "Derechos Humanos",
-            "Protección Social",
             "Igualdad",
-            "No Discriminación",
-            "Acceso A Justicia"
+            "Migrants",
+            "Droits de l'homme",
+            "Protection sociale",
+            "Migration",
+            "Égalité",
+            "Migrants",
+            "Human Rights",
+            "Social Protection",
+            "Migration",
+            "Equality"
         ],
+        "estructura": {
+            "es": "Aborda los derechos y principios aplicables a las personas migrantes, incluyendo protección contra abusos, acceso a justicia, integración social, y garantías de igualdad y no discriminación.",
+            "en": "Addresses the rights and principles applicable to migrants, including protection against abuse, access to justice, social integration, and guarantees of equality and non-discrimination.",
+            "fr": "Aborde les droits et principes applicables aux migrants, y compris la protection contre les abus, l'accès à la justice, l'intégration sociale et les garanties d'égalité et de non-discrimination."
+        },
+        "criterios": {
+            "es": [
+                "Migrantes",
+                "Derechos Humanos",
+                "Protección Social",
+                "Igualdad",
+                "No Discriminación",
+                "Acceso A Justicia"
+            ],
+            "en": [
+                "Migrants",
+                "Human Rights",
+                "Social Protection",
+                "Equality",
+                "Non-Discrimination",
+                "Access to Justice"
+            ],
+            "fr": [
+                "Migrants",
+                "Droits de l'homme",
+                "Protection sociale",
+                "Égalité",
+                "Non-discrimination",
+                "Accès à la justice"
+            ]
+        },
         "esp": "https://drive.google.com/file/d/1DlqadvQWsSluRhtX2M65Z0VLDjnWsuVp/view?usp=sharing",
         "fr": "https://drive.google.com/file/d/1kPZ9JY9BYLI2vN1RGgU4y2ZwnF-g57-l/view?usp=sharing",
         "ing": "https://drive.google.com/file/d/1YUP-ZRhrCTOnC77Xr8ELwyFxBJ6q5b5v/view?usp=sharing"

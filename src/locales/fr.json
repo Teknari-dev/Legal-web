@@ -1,0 +1,19 @@
+{
+    "home": {
+        "title": "LOIS.COM",
+        "subtitle": "Que voulez-vous apprendre aujourd'hui?",
+        "searchPlaceholder": "Rechercher",
+        "searchButton": "Rechercher"
+    },
+    "search": {
+        "results": "Résultats",
+        "noResults": "Aucun résultat trouvé.",
+        "structures": "Structures",
+        "criteria": "Critères"
+    },
+    "footer": {
+        "team": "Équipe de développement",
+        "team2": "Groupe de recherche en informatique appliquée",
+        "close": "Fermer"
+    }
+}
