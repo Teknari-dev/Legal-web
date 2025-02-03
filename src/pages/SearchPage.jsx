@@ -9,28 +9,43 @@ import { LanguageContext } from "../components/LanguageContext";
 const SearchPage = () => {
     const [searchTerm, setSearchTerm] = useState("");
     const [filteredResults, setFilteredResults] = useState([]);
+    const [includeStructure, setIncludeStructure] = useState(true);
+    const [includeCriteria, setIncludeCriteria] = useState(true);
     const location = useLocation();
     const { language, translate } = useContext(LanguageContext);
 
     const handleSearch = (term = searchTerm) => {
-        const results = data.filter(item =>
-            item.keywords.some(keyword =>
+        const query = new URLSearchParams(location.search);
+        const includeStructure = query.get("structure") === "true";
+        const includeCriteria = query.get("criteria") === "true";
+
+        const results = data.filter(item => {
+            const matchesKeywords = item.keywords.some(keyword =>
                 keyword.toLowerCase().includes(term.toLowerCase())
-            ) ||
-            item.titulo[language].toLowerCase().includes(term.toLowerCase()) ||
-            item.estructura[language].toLowerCase().includes(term.toLowerCase()) ||
-            item.criterios[language].some(criterio =>
+            );
+            const matchesTitle = item.titulo[language].toLowerCase().includes(term.toLowerCase());
+            const matchesStructure = includeStructure && item.estructura[language].toLowerCase().includes(term.toLowerCase());
+            const matchesCriteria = includeCriteria && item.criterios[language].some(criterio =>
                 criterio.toLowerCase().includes(term.toLowerCase())
-            )
-        );
+            );
+
+            return matchesKeywords || matchesTitle || matchesStructure || matchesCriteria;
+        });
+
         setFilteredResults(results);
     };
 
     useEffect(() => {
-        const query = new URLSearchParams(location.search).get("q");
-        if (query) {
-            setSearchTerm(query);
-            handleSearch(query);
+        const query = new URLSearchParams(location.search);
+        const searchQuery = query.get("q");
+        const includeStructure = query.get("structure") === "true";
+        const includeCriteria = query.get("criteria") === "true";
+
+        if (searchQuery) {
+            setSearchTerm(searchQuery);
+            setIncludeStructure(includeStructure);
+            setIncludeCriteria(includeCriteria);
+            handleSearch(searchQuery);
         }
     }, [location]);
 
@@ -55,6 +70,26 @@ const SearchPage = () => {
                                 {translate("home.searchButton")}
                             </button>
                         </div>
+                        <div className="flex space-x-4">
+                            <label className="flex items-center space-x-2">
+                                <input
+                                    type="checkbox"
+                                    checked={includeStructure}
+                                    onChange={(e) => setIncludeStructure(e.target.checked)}
+                                    className="form-checkbox text-primary"
+                                />
+                                <span className="text-secondary">{translate("search.structures")}</span>
+                            </label>
+                            <label className="flex items-center space-x-2">
+                                <input
+                                    type="checkbox"
+                                    checked={includeCriteria}
+                                    onChange={(e) => setIncludeCriteria(e.target.checked)}
+                                    className="form-checkbox text-primary"
+                                />
+                                <span className="text-secondary">{translate("search.criteria")}</span>
+                            </label>
+                        </div>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr] px-6">
@@ -76,92 +111,96 @@ const SearchPage = () => {
                             )}
                         </ul>
                     </div>
-                    <div className="flex flex-col space-y-12">
-                        <div>
-                            <h2 className="text-xl text-primary mb-6 bg-bg1 px-4 py-2 sm:text-left text-center">
-                                {translate("search.structures")}
-                            </h2>
-                            <ul className="space-y-6 bg-bg1 p-4">
-                                {filteredResults.length > 0 ? (
-                                    filteredResults.map((result, index) => (
-                                        <li key={index} className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
-                                            <p className="text-primary sm:hidden">
-                                                {result.titulo[language]}
-                                            </p>
-                                            <div className="flex flex-row sm:space-y-0 space-x-4">
-                                                <a
-                                                    href={result.esp}
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                    className="text-primary hover:text-primary-dark transition flex flex-col items-center"
-                                                    title="Documento en español"
-                                                >
-                                                    <GlobeAltIcon className="w-8 h-8" />
-                                                    <span className="text-sm mt-1">ES</span>
-                                                </a>
-                                                <a
-                                                    href={result.fr}
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                    className="text-primary hover:text-primary-dark transition flex flex-col items-center"
-                                                    title="Documento en francés"
-                                                >
-                                                    <GlobeAltIcon className="w-8 h-8" />
-                                                    <span className="text-sm mt-1">FR</span>
-                                                </a>
-                                                <a
-                                                    href={result.ing}
-                                                    target="_blank"
-                                                    rel="noopener noreferrer"
-                                                    className="text-primary hover:text-primary-dark transition flex flex-col items-center"
-                                                    title="Documento en inglés"
-                                                >
-                                                    <GlobeAltIcon className="w-8 h-8" />
-                                                    <span className="text-sm mt-1">EN</span>
-                                                </a>
-                                            </div>
-                                            <div className="flex-1">
-                                                <p className=" text-primary hidden sm:block">
+                    <div className="flex flex-col space-y-6">
+                        {includeStructure && (
+                            <div>
+                                <h2 className="text-xl text-primary mb-6 bg-bg1 px-4 py-2 sm:text-left text-center">
+                                    {translate("search.structures")}
+                                </h2>
+                                <ul className="space-y-6 bg-bg1 p-4">
+                                    {filteredResults.length > 0 ? (
+                                        filteredResults.map((result, index) => (
+                                            <li key={index} className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
+                                                <p className="text-primary sm:hidden">
                                                     {result.titulo[language]}
                                                 </p>
-                                                <span className="text-secondary">
-                                                    {result.estructura[language]}
-                                                </span>
-                                            </div>
-                                        </li>
-                                    ))
-                                ) : (
-                                    <p className="text-secondary text-center">
-                                        {translate("search.noResults")}
-                                    </p>
-                                )}
-                            </ul>
-                        </div>
-                        <div>
-                            <h2 className="text-xl text-primary mb-6 bg-bg1 px-4 py-2 sm:text-left text-center">
-                                {translate("search.criteria")}
-                            </h2>
-                            <ul className="space-y-6 bg-bg1 p-4">
-                                {filteredResults.length > 0 ? (
-                                    filteredResults.map((result, index) => (
-                                        <li className="flex flex-col space-y-2 sm:space-x-6" key={index}>
-                                            <p className="text-primary text-center sm:text-start">
-                                                {result.titulo[language]}
-                                            </p>
-                                            <ul className="text-sm text-secondary mt-1 list-disc pl-6">
-                                                {result.criterios[language].map((criterio, idx) => (
-                                                    <li key={idx}>{criterio}</li>
-                                                ))}
-                                            </ul>
-                                        </li>
-                                    ))
-                                ) : (
-                                    <p className="text-secondary text-center">
-                                        {translate("search.noResults")}
-                                    </p>
-                                )}
-                            </ul>
-                        </div>
+                                                <div className="flex flex-row sm:space-y-0 space-x-4">
+                                                    <a
+                                                        href={result.esp}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="text-primary hover:text-primary-dark transition flex flex-col items-center"
+                                                        title="Documento en español"
+                                                    >
+                                                        <GlobeAltIcon className="w-8 h-8" />
+                                                        <span className="text-sm mt-1">ES</span>
+                                                    </a>
+                                                    <a
+                                                        href={result.fr}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="text-primary hover:text-primary-dark transition flex flex-col items-center"
+                                                        title="Documento en francés"
+                                                    >
+                                                        <GlobeAltIcon className="w-8 h-8" />
+                                                        <span className="text-sm mt-1">FR</span>
+                                                    </a>
+                                                    <a
+                                                        href={result.ing}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="text-primary hover:text-primary-dark transition flex flex-col items-center"
+                                                        title="Documento en inglés"
+                                                    >
+                                                        <GlobeAltIcon className="w-8 h-8" />
+                                                        <span className="text-sm mt-1">EN</span>
+                                                    </a>
+                                                </div>
+                                                <div className="flex-1">
+                                                    <p className=" text-primary hidden sm:block">
+                                                        {result.titulo[language]}
+                                                    </p>
+                                                    <span className="text-secondary">
+                                                        {result.estructura[language]}
+                                                    </span>
+                                                </div>
+                                            </li>
+                                        ))
+                                    ) : (
+                                        <p className="text-secondary text-center">
+                                            {translate("search.noResults")}
+                                        </p>
+                                    )}
+                                </ul>
+                            </div>
+                        )}
+                        {includeCriteria && (
+                            <div>
+                                <h2 className="text-xl text-primary mb-6 bg-bg1 px-4 py-2 sm:text-left text-center">
+                                    {translate("search.criteria")}
+                                </h2>
+                                <ul className="space-y-6 bg-bg1 p-4">
+                                    {filteredResults.length > 0 ? (
+                                        filteredResults.map((result, index) => (
+                                            <li className="flex flex-col space-y-2 sm:space-x-6" key={index}>
+                                                <p className="text-primary text-center sm:text-start">
+                                                    {result.titulo[language]}
+                                                </p>
+                                                <ul className="text-sm text-secondary mt-1 list-disc pl-6">
+                                                    {result.criterios[language].map((criterio, idx) => (
+                                                        <li key={idx}>{criterio}</li>
+                                                    ))}
+                                                </ul>
+                                            </li>
+                                        ))
+                                    ) : (
+                                        <p className="text-secondary text-center">
+                                            {translate("search.noResults")}
+                                        </p>
+                                    )}
+                                </ul>
+                            </div>
+                        )}
                     </div>
                 </div>
             </main>
