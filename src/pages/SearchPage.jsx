@@ -1,54 +1,137 @@
 import React, { useState, useEffect, useContext } from "react";
 import Navbar from "../components/Navbar";
-import data from "../data/data.json";
+import search from "../data/search.json";
 import { useLocation } from "react-router-dom";
 import Footer from '../components/Footer';
 import { GlobeAltIcon } from '@heroicons/react/24/outline';
 import { LanguageContext } from "../components/LanguageContext";
 
+// Función para normalizar texto (eliminar acentos)
+const normalizeText = (text) => {
+  return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+};
+
+// Componente para resaltar el texto con la palabra clave correspondiente
+const HighlightKeyword = ({ text, keywordToHighlight }) => {
+  if (!keywordToHighlight || !text) return text;
+  
+  // Normalizar la palabra clave y preparar patrones para búsqueda
+  const normalizedKeyword = normalizeText(keywordToHighlight);
+  
+  // Patrones alternativos para diferentes formas de la palabra (singular/plural)
+  let patterns = [keywordToHighlight];
+  
+  // Casos especiales
+  if (normalizedKeyword.toLowerCase() === "indigenas" || normalizedKeyword.toLowerCase() === "indigena") {
+    patterns = ["indígena", "indígenas", "Indígena", "Indígenas", "indigena", "indigenas"];
+  } else if (normalizedKeyword.toLowerCase() === "derechos humanos") {
+    patterns = ["derechos humanos", "Derechos Humanos", "derechos humano", "Derechos Humano"];
+  } else if (normalizedKeyword.toLowerCase() === "discriminacion") {
+    patterns = ["discriminación", "Discriminación", "discriminacion", "Discriminacion"];
+  }
+  
+  // Dividir el texto una vez y luego procesar
+  let result = [];
+  let lastIndex = 0;
+  
+  // Crear un RegExp combinado con todos los patrones
+  const combinedPattern = patterns.map(p => p.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')).join('|');
+  const regex = new RegExp(`\\b(${combinedPattern})\\b`, 'gi');
+  
+  // Encontrar todas las coincidencias
+  let match;
+  while ((match = regex.exec(text)) !== null) {
+    // Añadir el texto anterior a la coincidencia
+    if (match.index > lastIndex) {
+      result.push(text.substring(lastIndex, match.index));
+    }
+    
+    // Añadir la coincidencia resaltada
+    result.push(
+      <span key={match.index} className="bg-yellow-200 font-medium">
+        {match[0]}
+      </span>
+    );
+    
+    lastIndex = match.index + match[0].length;
+  }
+  
+  // Añadir el resto del texto
+  if (lastIndex < text.length) {
+    result.push(text.substring(lastIndex));
+  }
+  
+  return result;
+};
+
 const SearchPage = () => {
     const [searchTerm, setSearchTerm] = useState("");
     const [filteredResults, setFilteredResults] = useState([]);
-    const [includeStructure, setIncludeStructure] = useState(true);
-    const [includeCriteria, setIncludeCriteria] = useState(true);
+    const [matchedKeywords, setMatchedKeywords] = useState([]);
     const location = useLocation();
     const { language, translate } = useContext(LanguageContext);
-
+    
     const handleSearch = (term = searchTerm) => {
-        const query = new URLSearchParams(location.search);
-        const includeStructure = query.get("structure") === "true";
-        const includeCriteria = query.get("criteria") === "true";
-
-        const results = data.filter(item => {
-            const matchesKeywords = item.keywords.some(keyword =>
-                keyword.toLowerCase().includes(term.toLowerCase())
-            );
-            const matchesTitle = item.titulo[language].toLowerCase().includes(term.toLowerCase());
-            const matchesStructure = includeStructure && item.estructura[language].toLowerCase().includes(term.toLowerCase());
-            const matchesCriteria = includeCriteria && item.criterios[language].some(criterio =>
-                criterio.toLowerCase().includes(term.toLowerCase())
-            );
-
-            return matchesKeywords || matchesTitle || matchesStructure || matchesCriteria;
+        const results = [];
+        const resultKeywords = [];
+        
+        if (!term.trim()) {
+            setFilteredResults([]);
+            setMatchedKeywords([]);
+            return;
+        }
+        
+        const searchTermLower = normalizeText(term.toLowerCase());
+        
+        // Recorrer todas las keywords del JSON
+        Object.keys(search).forEach(keyword => {
+            console.log(`Comparando '${keyword}' con '${term}'`);
+            
+            // Normalizar la keyword para comparación sin acentos
+            const normalizedKeyword = normalizeText(keyword.toLowerCase());
+            const keywordMatches = normalizedKeyword.includes(searchTermLower) || 
+                                  searchTermLower.includes(normalizedKeyword);
+            
+            if (keywordMatches) {
+                console.log(`Coincidencia encontrada con keyword: ${keyword}`);
+                // Si la keyword coincide, agregar todas las listas y registrar la keyword
+                search[keyword].forEach(item => {
+                    results.push(item);
+                    resultKeywords.push(keyword); // Guardar la keyword que coincidió
+                });
+            }
         });
-
-        setFilteredResults(results);
+        
+        // Eliminar duplicados preservando la asociación con keywords
+        const uniqueResults = [];
+        const uniqueKeywords = [];
+        const seen = new Set();
+        
+        results.forEach((item, index) => {
+            const itemStr = JSON.stringify(item);
+            if (!seen.has(itemStr)) {
+                seen.add(itemStr);
+                uniqueResults.push(item);
+                uniqueKeywords.push(resultKeywords[index]);
+            }
+        });
+        
+        console.log("Resultados:", uniqueResults);
+        console.log("Keywords coincidentes:", uniqueKeywords);
+        
+        setFilteredResults(uniqueResults);
+        setMatchedKeywords(uniqueKeywords);
     };
-
+    
     useEffect(() => {
         const query = new URLSearchParams(location.search);
         const searchQuery = query.get("q");
-        const includeStructure = query.get("structure") === "true";
-        const includeCriteria = query.get("criteria") === "true";
-
         if (searchQuery) {
             setSearchTerm(searchQuery);
-            setIncludeStructure(includeStructure);
-            setIncludeCriteria(includeCriteria);
             handleSearch(searchQuery);
         }
     }, [location]);
-
+    
     return (
         <div className="min-h-screen flex flex-col">
             <Navbar />
@@ -70,26 +153,6 @@ const SearchPage = () => {
                                 {translate("home.searchButton")}
                             </button>
                         </div>
-                        <div className="flex space-x-4">
-                            <label className="flex items-center space-x-2">
-                                <input
-                                    type="checkbox"
-                                    checked={includeStructure}
-                                    onChange={(e) => setIncludeStructure(e.target.checked)}
-                                    className="form-checkbox text-primary"
-                                />
-                                <span className="text-secondary">{translate("search.structures")}</span>
-                            </label>
-                            <label className="flex items-center space-x-2">
-                                <input
-                                    type="checkbox"
-                                    checked={includeCriteria}
-                                    onChange={(e) => setIncludeCriteria(e.target.checked)}
-                                    className="form-checkbox text-primary"
-                                />
-                                <span className="text-secondary">{translate("search.criteria")}</span>
-                            </label>
-                        </div>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr] px-6">
@@ -101,7 +164,7 @@ const SearchPage = () => {
                             {filteredResults.length > 0 ? (
                                 filteredResults.map((result, index) => (
                                     <li key={index} className="text-secondary text-base">
-                                        {result.titulo[language]}
+                                        {result[0]}
                                     </li>
                                 ))
                             ) : (
@@ -112,17 +175,18 @@ const SearchPage = () => {
                         </ul>
                     </div>
                     <div className="flex flex-col space-y-6">
-                        {includeStructure && (
-                            <div>
-                                <h2 className="text-xl text-primary mb-6 bg-bg1 px-4 py-2 sm:text-left text-center">
-                                    {translate("search.structures")}
-                                </h2>
-                                <ul className="space-y-6 bg-bg1 p-4">
-                                    {filteredResults.length > 0 ? (
-                                        filteredResults.map((result, index) => (
-                                            <li key={index} className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
+                        <div>
+                            <h2 className="text-xl text-primary mb-6 bg-bg1 px-4 py-2 sm:text-left text-center">
+                                Resultados
+                            </h2>
+                            <ul className="space-y-6 bg-bg1 p-4">
+                                {filteredResults.length > 0 ? (
+                                    filteredResults.map((result, index) => (
+                                        <li key={index} className="flex flex-col space-y-4">
+                                            {/* Primera fila con información básica */}
+                                            <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-6">
                                                 <p className="text-primary sm:hidden">
-                                                    {result.titulo[language]}
+                                                    {result[0]}
                                                 </p>
                                                 <div className="flex flex-row sm:space-y-0 space-x-4">
                                                     <a
@@ -157,50 +221,54 @@ const SearchPage = () => {
                                                     </a>
                                                 </div>
                                                 <div className="flex-1">
-                                                    <p className=" text-primary hidden sm:block">
-                                                        {result.titulo[language]}
+                                                    <p className="text-primary hidden sm:block">
+                                                        {result[0]}
                                                     </p>
-                                                    <span className="text-secondary">
-                                                        {result.estructura[language]}
+                                                    <span className="text-secondary mr-3">
+                                                        {result[1]}
+                                                    </span>
+                                                    <span className="text-primary">
+                                                        {(() => {
+                                                            if (result[2] && result[3]) {
+                                                                return `${result[2]} - ${result[3]}`;
+                                                            } else if (result[2]) {
+                                                                return result[2];
+                                                            } else if (result[3]) {
+                                                                return result[3];
+                                                            } else {
+                                                                return "";
+                                                            }
+                                                        })()}
                                                     </span>
                                                 </div>
-                                            </li>
-                                        ))
-                                    ) : (
-                                        <p className="text-secondary text-center">
-                                            {translate("search.noResults")}
-                                        </p>
-                                    )}
-                                </ul>
-                            </div>
-                        )}
-                        {includeCriteria && (
-                            <div>
-                                <h2 className="text-xl text-primary mb-6 bg-bg1 px-4 py-2 sm:text-left text-center">
-                                    {translate("search.criteria")}
-                                </h2>
-                                <ul className="space-y-6 bg-bg1 p-4">
-                                    {filteredResults.length > 0 ? (
-                                        filteredResults.map((result, index) => (
-                                            <li className="flex flex-col space-y-2 sm:space-x-6" key={index}>
-                                                <p className="text-primary text-center sm:text-start">
-                                                    {result.titulo[language]}
+                                                <span className="text-secondary">
+                                                    {result[5]}
+                                                </span>
+                                            </div>
+                                            
+                                            {/* Texto largo con resaltado de la palabra clave correspondiente */}
+                                            <div className="mt-2 text-gray-700 bg-gray-50 p-4 rounded">
+                                                <p className="whitespace-pre-line text-sm">
+                                                    <HighlightKeyword 
+                                                        text={result[7]} 
+                                                        keywordToHighlight={matchedKeywords[index] || ""} 
+                                                    />
                                                 </p>
-                                                <ul className="text-sm text-secondary mt-1 list-disc pl-6">
-                                                    {result.criterios[language].map((criterio, idx) => (
-                                                        <li key={idx}>{criterio}</li>
-                                                    ))}
-                                                </ul>
-                                            </li>
-                                        ))
-                                    ) : (
-                                        <p className="text-secondary text-center">
-                                            {translate("search.noResults")}
-                                        </p>
-                                    )}
-                                </ul>
-                            </div>
-                        )}
+                                            </div>
+                                            
+                                            {/* Separador entre resultados */}
+                                            {index < filteredResults.length - 1 && (
+                                                <div className="border-b border-gray-200 my-2"></div>
+                                            )}
+                                        </li>
+                                    ))
+                                ) : (
+                                    <p className="text-secondary text-center">
+                                        {translate("search.noResults")}
+                                    </p>
+                                )}
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </main>

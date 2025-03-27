@@ -5,12 +5,10 @@ import { LanguageContext } from "./LanguageContext";
 const Hero = () => {
     const navigate = useNavigate();
     const [searchTerm, setSearchTerm] = useState("");
-    const [includeStructure, setIncludeStructure] = useState(true);
-    const [includeCriteria, setIncludeCriteria] = useState(true);
     const { translate } = useContext(LanguageContext);
 
     const handleSearch = () => {
-        navigate(`/search?q=${encodeURIComponent(searchTerm)}&structure=${includeStructure}&criteria=${includeCriteria}`);
+        navigate(`/search?q=${encodeURIComponent(searchTerm)}`);
     };
 
     return (
@@ -36,26 +34,6 @@ const Hero = () => {
                     >
                         {translate("home.searchButton")}
                     </button>
-                </div>
-                <div className="flex space-x-4 justify-center">
-                    <label className="flex items-center space-x-2">
-                        <input
-                            type="checkbox"
-                            checked={includeStructure}
-                            onChange={(e) => setIncludeStructure(e.target.checked)}
-                            className="form-checkbox text-primary"
-                        />
-                        <span className="text-secondary">{translate("search.structures")}</span>
-                    </label>
-                    <label className="flex items-center space-x-2">
-                        <input
-                            type="checkbox"
-                            checked={includeCriteria}
-                            onChange={(e) => setIncludeCriteria(e.target.checked)}
-                            className="form-checkbox text-primary"
-                        />
-                        <span className="text-secondary">{translate("search.criteria")}</span>
-                    </label>
                 </div>
             </div>
         </section>
