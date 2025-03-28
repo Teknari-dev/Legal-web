@@ -1,58 +1,556 @@
 {
-    "Indigenas": [
-        [
-            "DERECHO DE LAS PERSONAS INDÍGENAS",
-            "SUJETOS", 
-            "Generales", 
-            "Pasivo", 
-            "Derecho a la libre determinación",
-            "O-1-37-P.25", 
-            "PDF1",
-            "Esta recomendación general tiene por objetivo contribuir al cumplimiento por los Estados partes de la obligación de respetar, proteger y facilitar el ejercicio de los derechos humanos de las trabajadoras migratorias, así como de las obligaciones jurídicas contraídas en virtud de otros tratados, los compromisos asumidos en relación con los planes de acción de conferencias mundiales y la importante labor de los órganos creados en virtud de tratados en materia de migración, en particular el Comité de Protección de los Derechos de Todos los Trabajadores Migratorios y de sus Familiares 3 . A la vez que señala que la Convención Internacional sobre la protección de los derechos de todos los trabajadores migratorios y de sus familiares protege a las personas, incluidas las trabajadoras migratorias, sobre la base de su estatus migratorio, la Convención sobre la eliminación de todas las formas de discriminación contra la mujer protege a todas las mujeres, incluidas las trabajadoras migratorias, contra la discriminación sexual o por motivo de género. Aunque la migración ofrece nuevas oportunidades y puede ser un medio de empoderamiento económico al propiciar una participación más amplia, también puede poner en peligro los derechos humanos y la seguridad de la mujer. Por ello, la presente recomendación general tiene por fin abordar en detalle las circunstancias que contribuyen a la vulnerabilidad particular de muchas mujeres migrantes, y sus experiencias respecto de la discriminación por motivo de género y de sexo en tanto causa y consecuencia de la violación de sus derechos humanos."
-        ],
-        [
-            "DERECHOS DE LOS PUEBLOS INDÍGENAS",
-            "JURISDICCIÓN",
-            "Especial",
-            "Activo",
-            "Derecho a la consulta previa",
-            "O-2-45-P.12",
-            "PDF2",
-            "La consulta previa es un derecho fundamental de los pueblos indígenas que debe ser realizado de buena fe y con el objetivo de llegar a un acuerdo o consentimiento sobre las medidas propuestas. Este proceso debe respetar las instituciones representativas de los pueblos indígenas y debe ser realizado antes de la adopción de cualquier medida que pueda afectar sus derechos."
-        ]
-    ],
-    "Derechos Humanos": [
-        [
-            "PROTECCIÓN DE DERECHOS HUMANOS",
-            "MECANISMOS",
-            "",
-            "",
-            "Sistema Interamericano de Derechos Humanos",
-            "O-3-50-P.8",
-            "PDF3",
-            "El Sistema Interamericano de Derechos Humanos es un conjunto de órganos y mecanismos que tienen como objetivo promover y proteger los derechos humanos en el continente americano. Este sistema está compuesto por la Comisión Interamericana de Derechos Humanos y la Corte Interamericana de Derechos Humanos, que trabajan en conjunto para garantizar el respeto y la protección de los derechos fundamentales."
-        ]
-    ],
-    "Discriminación": [
-        [
-            "DISCRIMINACIÓN RACIAL",
-            "PROHIBICIONES",
-            "",
-            "Pasivo",
-            "Eliminación de la discriminación racial",
-            "O-4-55-P.15",
-            "PDF4",
-            "La discriminación racial constituye una violación grave de los derechos humanos y debe ser erradicada en todas sus formas. Los Estados tienen la obligación de adoptar medidas efectivas para prevenir, combatir y eliminar la discriminación racial, incluyendo la promulgación de leyes que prohíban expresamente esta práctica y la implementación de políticas públicas orientadas a promover la igualdad racial."
-        ],
-        [
-            "DISCRIMINACIÓN DE GÉNERO",
-            "PROHIBICIONES",
-            "Especiales",
-            "",
-            "Igualdad de género",
-            "O-5-60-P.20",
-            "PDF5",
-            "La igualdad de género es un principio fundamental de los derechos humanos. Los Estados deben adoptar todas las medidas necesarias para eliminar la discriminación contra las mujeres y garantizar su plena participación en la vida política, económica, social y cultural de sus países."
-        ]
+  "Estados": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-1-37-p.25",
+      "CCPR-GC-37.pdf",
+      "Los Estados deben velar por que las leyes y su interpretación y aplicación no den lugar a discriminación en el disfrute del derecho de reunión pacífica, por ejemplo, por motivos de raza, color, origen étnico, edad, sexo, idioma, patrimonio, religión o creencias, opinión política o de otra índole, origen nacional o social, nacimiento, minoría, condición indígena o de otra índole, discapacidad, orientación sexual o identidad de género u otra condición. 25 Hay que poner especial empeño en garantizar la facilitación y la protección equitativa y efectiva del derecho de reunión pacífica de las personas que pertenezcan a grupos que experimentan o han experimentado discriminación o que puedan tener especiales dificultades para participar en las reuniones 26 . Además, los Estados tienen el deber de proteger a los participantes de todas las formas de malos tratos y ataques discriminatorios 27 ."
     ]
+  ],
+  "administrativos": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "aplicación": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-1-37-p.25",
+      "CCPR-GC-37.pdf",
+      "Los Estados deben velar por que las leyes y su interpretación y aplicación no den lugar a discriminación en el disfrute del derecho de reunión pacífica, por ejemplo, por motivos de raza, color, origen étnico, edad, sexo, idioma, patrimonio, religión o creencias, opinión política o de otra índole, origen nacional o social, nacimiento, minoría, condición indígena o de otra índole, discapacidad, orientación sexual o identidad de género u otra condición. 25 Hay que poner especial empeño en garantizar la facilitación y la protección equitativa y efectiva del derecho de reunión pacífica de las personas que pertenezcan a grupos que experimentan o han experimentado discriminación o que puedan tener especiales dificultades para participar en las reuniones 26 . Además, los Estados tienen el deber de proteger a los participantes de todas las formas de malos tratos y ataques discriminatorios 27 ."
+    ]
+  ],
+  "derecho": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-1-37-p.25",
+      "CCPR-GC-37.pdf",
+      "Los Estados deben velar por que las leyes y su interpretación y aplicación no den lugar a discriminación en el disfrute del derecho de reunión pacífica, por ejemplo, por motivos de raza, color, origen étnico, edad, sexo, idioma, patrimonio, religión o creencias, opinión política o de otra índole, origen nacional o social, nacimiento, minoría, condición indígena o de otra índole, discapacidad, orientación sexual o identidad de género u otra condición. 25 Hay que poner especial empeño en garantizar la facilitación y la protección equitativa y efectiva del derecho de reunión pacífica de las personas que pertenezcan a grupos que experimentan o han experimentado discriminación o que puedan tener especiales dificultades para participar en las reuniones 26 . Además, los Estados tienen el deber de proteger a los participantes de todas las formas de malos tratos y ataques discriminatorios 27 ."
+    ]
+  ],
+  "desempleo": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-4-38-p.20",
+      "CEDAW-GR-38.pdf",
+      "La trata de mujeres y niñas tiene sus raíces en la discriminación por razón de sexo y género, la desigualdad estructural por razón de género y la feminización de la pobreza. Las mujeres y las niñas más vulnerables a la trata son las que pertenecen a grupos marginados, como las que viven en zonas rurales y remotas, las pertenecientes CEDAW/C/GC/38 7/28 a comunidades indígenas y de minorías étnicas, las mujeres y niñas con discapacidad, las mujeres y niñas en situación de migración irregular, así como las desplazadas, apátridas o en riesgo de apatridia, las mujeres y niñas refugiadas y solicitantes de asilo, incluidas aquellas cuyas solicitudes han sido rechazadas, las mujeres y niñas que viven en situaciones de conflicto o de posconflicto o que proceden de ellas y las niñas privadas de cuidados o en acogimiento, y su vida se caracteriza por una grave privación de sus derechos. Las integrantes de esos grupos suelen sufrir exclusión social, política y económica, lo que aumenta la probabilidad de que sean pobres, carezcan de educación o educación suficiente, no estén inscritas en el registro o carezcan de documentación y estén desempleadas o subempleadas, de que soporten la carga de las responsabilidades domésticas y del cuidado infantil, de que cuenten con acceso limitado a las prestaciones, la protección y los servicios del Estado, de que sufran violencia de pareja y doméstica, malos tratos y descuido en el entorno familiar, de que se encuentren en instituciones asistenciales y de que sean sometidas al matrimonio infantil, forzado y servil o a privaciones debidas a la viudez. Esas situaciones pueden verse agravadas por la carga adicional de una deficiencia o una enfermedad grave como consecuencia de la trata, incluida la explotación sexual."
+    ]
+  ],
+  "desfavorecidos": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "desigualdad": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-4-38-p.20",
+      "CEDAW-GR-38.pdf",
+      "La trata de mujeres y niñas tiene sus raíces en la discriminación por razón de sexo y género, la desigualdad estructural por razón de género y la feminización de la pobreza. Las mujeres y las niñas más vulnerables a la trata son las que pertenecen a grupos marginados, como las que viven en zonas rurales y remotas, las pertenecientes CEDAW/C/GC/38 7/28 a comunidades indígenas y de minorías étnicas, las mujeres y niñas con discapacidad, las mujeres y niñas en situación de migración irregular, así como las desplazadas, apátridas o en riesgo de apatridia, las mujeres y niñas refugiadas y solicitantes de asilo, incluidas aquellas cuyas solicitudes han sido rechazadas, las mujeres y niñas que viven en situaciones de conflicto o de posconflicto o que proceden de ellas y las niñas privadas de cuidados o en acogimiento, y su vida se caracteriza por una grave privación de sus derechos. Las integrantes de esos grupos suelen sufrir exclusión social, política y económica, lo que aumenta la probabilidad de que sean pobres, carezcan de educación o educación suficiente, no estén inscritas en el registro o carezcan de documentación y estén desempleadas o subempleadas, de que soporten la carga de las responsabilidades domésticas y del cuidado infantil, de que cuenten con acceso limitado a las prestaciones, la protección y los servicios del Estado, de que sufran violencia de pareja y doméstica, malos tratos y descuido en el entorno familiar, de que se encuentren en instituciones asistenciales y de que sean sometidas al matrimonio infantil, forzado y servil o a privaciones debidas a la viudez. Esas situaciones pueden verse agravadas por la carga adicional de una deficiencia o una enfermedad grave como consecuencia de la trata, incluida la explotación sexual."
+    ]
+  ],
+  "discapacidad": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-1-37-p.25",
+      "CCPR-GC-37.pdf",
+      "Los Estados deben velar por que las leyes y su interpretación y aplicación no den lugar a discriminación en el disfrute del derecho de reunión pacífica, por ejemplo, por motivos de raza, color, origen étnico, edad, sexo, idioma, patrimonio, religión o creencias, opinión política o de otra índole, origen nacional o social, nacimiento, minoría, condición indígena o de otra índole, discapacidad, orientación sexual o identidad de género u otra condición. 25 Hay que poner especial empeño en garantizar la facilitación y la protección equitativa y efectiva del derecho de reunión pacífica de las personas que pertenezcan a grupos que experimentan o han experimentado discriminación o que puedan tener especiales dificultades para participar en las reuniones 26 . Además, los Estados tienen el deber de proteger a los participantes de todas las formas de malos tratos y ataques discriminatorios 27 ."
+    ],
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-4-38-p.20",
+      "CEDAW-GR-38.pdf",
+      "La trata de mujeres y niñas tiene sus raíces en la discriminación por razón de sexo y género, la desigualdad estructural por razón de género y la feminización de la pobreza. Las mujeres y las niñas más vulnerables a la trata son las que pertenecen a grupos marginados, como las que viven en zonas rurales y remotas, las pertenecientes CEDAW/C/GC/38 7/28 a comunidades indígenas y de minorías étnicas, las mujeres y niñas con discapacidad, las mujeres y niñas en situación de migración irregular, así como las desplazadas, apátridas o en riesgo de apatridia, las mujeres y niñas refugiadas y solicitantes de asilo, incluidas aquellas cuyas solicitudes han sido rechazadas, las mujeres y niñas que viven en situaciones de conflicto o de posconflicto o que proceden de ellas y las niñas privadas de cuidados o en acogimiento, y su vida se caracteriza por una grave privación de sus derechos. Las integrantes de esos grupos suelen sufrir exclusión social, política y económica, lo que aumenta la probabilidad de que sean pobres, carezcan de educación o educación suficiente, no estén inscritas en el registro o carezcan de documentación y estén desempleadas o subempleadas, de que soporten la carga de las responsabilidades domésticas y del cuidado infantil, de que cuenten con acceso limitado a las prestaciones, la protección y los servicios del Estado, de que sufran violencia de pareja y doméstica, malos tratos y descuido en el entorno familiar, de que se encuentren en instituciones asistenciales y de que sean sometidas al matrimonio infantil, forzado y servil o a privaciones debidas a la viudez. Esas situaciones pueden verse agravadas por la carga adicional de una deficiencia o una enfermedad grave como consecuencia de la trata, incluida la explotación sexual."
+    ]
+  ],
+  "discriminación": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-1-37-p.25",
+      "CCPR-GC-37.pdf",
+      "Los Estados deben velar por que las leyes y su interpretación y aplicación no den lugar a discriminación en el disfrute del derecho de reunión pacífica, por ejemplo, por motivos de raza, color, origen étnico, edad, sexo, idioma, patrimonio, religión o creencias, opinión política o de otra índole, origen nacional o social, nacimiento, minoría, condición indígena o de otra índole, discapacidad, orientación sexual o identidad de género u otra condición. 25 Hay que poner especial empeño en garantizar la facilitación y la protección equitativa y efectiva del derecho de reunión pacífica de las personas que pertenezcan a grupos que experimentan o han experimentado discriminación o que puedan tener especiales dificultades para participar en las reuniones 26 . Además, los Estados tienen el deber de proteger a los participantes de todas las formas de malos tratos y ataques discriminatorios 27 ."
+    ],
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-4-38-p.20",
+      "CEDAW-GR-38.pdf",
+      "La trata de mujeres y niñas tiene sus raíces en la discriminación por razón de sexo y género, la desigualdad estructural por razón de género y la feminización de la pobreza. Las mujeres y las niñas más vulnerables a la trata son las que pertenecen a grupos marginados, como las que viven en zonas rurales y remotas, las pertenecientes CEDAW/C/GC/38 7/28 a comunidades indígenas y de minorías étnicas, las mujeres y niñas con discapacidad, las mujeres y niñas en situación de migración irregular, así como las desplazadas, apátridas o en riesgo de apatridia, las mujeres y niñas refugiadas y solicitantes de asilo, incluidas aquellas cuyas solicitudes han sido rechazadas, las mujeres y niñas que viven en situaciones de conflicto o de posconflicto o que proceden de ellas y las niñas privadas de cuidados o en acogimiento, y su vida se caracteriza por una grave privación de sus derechos. Las integrantes de esos grupos suelen sufrir exclusión social, política y económica, lo que aumenta la probabilidad de que sean pobres, carezcan de educación o educación suficiente, no estén inscritas en el registro o carezcan de documentación y estén desempleadas o subempleadas, de que soporten la carga de las responsabilidades domésticas y del cuidado infantil, de que cuenten con acceso limitado a las prestaciones, la protección y los servicios del Estado, de que sufran violencia de pareja y doméstica, malos tratos y descuido en el entorno familiar, de que se encuentren en instituciones asistenciales y de que sean sometidas al matrimonio infantil, forzado y servil o a privaciones debidas a la viudez. Esas situaciones pueden verse agravadas por la carga adicional de una deficiencia o una enfermedad grave como consecuencia de la trata, incluida la explotación sexual."
+    ]
+  ],
+  "discriminatorios": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "edad": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-1-37-p.25",
+      "CCPR-GC-37.pdf",
+      "Los Estados deben velar por que las leyes y su interpretación y aplicación no den lugar a discriminación en el disfrute del derecho de reunión pacífica, por ejemplo, por motivos de raza, color, origen étnico, edad, sexo, idioma, patrimonio, religión o creencias, opinión política o de otra índole, origen nacional o social, nacimiento, minoría, condición indígena o de otra índole, discapacidad, orientación sexual o identidad de género u otra condición. 25 Hay que poner especial empeño en garantizar la facilitación y la protección equitativa y efectiva del derecho de reunión pacífica de las personas que pertenezcan a grupos que experimentan o han experimentado discriminación o que puedan tener especiales dificultades para participar en las reuniones 26 . Además, los Estados tienen el deber de proteger a los participantes de todas las formas de malos tratos y ataques discriminatorios 27 ."
+    ]
+  ],
+  "educación": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-4-38-p.20",
+      "CEDAW-GR-38.pdf",
+      "La trata de mujeres y niñas tiene sus raíces en la discriminación por razón de sexo y género, la desigualdad estructural por razón de género y la feminización de la pobreza. Las mujeres y las niñas más vulnerables a la trata son las que pertenecen a grupos marginados, como las que viven en zonas rurales y remotas, las pertenecientes CEDAW/C/GC/38 7/28 a comunidades indígenas y de minorías étnicas, las mujeres y niñas con discapacidad, las mujeres y niñas en situación de migración irregular, así como las desplazadas, apátridas o en riesgo de apatridia, las mujeres y niñas refugiadas y solicitantes de asilo, incluidas aquellas cuyas solicitudes han sido rechazadas, las mujeres y niñas que viven en situaciones de conflicto o de posconflicto o que proceden de ellas y las niñas privadas de cuidados o en acogimiento, y su vida se caracteriza por una grave privación de sus derechos. Las integrantes de esos grupos suelen sufrir exclusión social, política y económica, lo que aumenta la probabilidad de que sean pobres, carezcan de educación o educación suficiente, no estén inscritas en el registro o carezcan de documentación y estén desempleadas o subempleadas, de que soporten la carga de las responsabilidades domésticas y del cuidado infantil, de que cuenten con acceso limitado a las prestaciones, la protección y los servicios del Estado, de que sufran violencia de pareja y doméstica, malos tratos y descuido en el entorno familiar, de que se encuentren en instituciones asistenciales y de que sean sometidas al matrimonio infantil, forzado y servil o a privaciones debidas a la viudez. Esas situaciones pueden verse agravadas por la carga adicional de una deficiencia o una enfermedad grave como consecuencia de la trata, incluida la explotación sexual."
+    ]
+  ],
+  "empresariales": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "exclusión": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-4-38-p.20",
+      "CEDAW-GR-38.pdf",
+      "La trata de mujeres y niñas tiene sus raíces en la discriminación por razón de sexo y género, la desigualdad estructural por razón de género y la feminización de la pobreza. Las mujeres y las niñas más vulnerables a la trata son las que pertenecen a grupos marginados, como las que viven en zonas rurales y remotas, las pertenecientes CEDAW/C/GC/38 7/28 a comunidades indígenas y de minorías étnicas, las mujeres y niñas con discapacidad, las mujeres y niñas en situación de migración irregular, así como las desplazadas, apátridas o en riesgo de apatridia, las mujeres y niñas refugiadas y solicitantes de asilo, incluidas aquellas cuyas solicitudes han sido rechazadas, las mujeres y niñas que viven en situaciones de conflicto o de posconflicto o que proceden de ellas y las niñas privadas de cuidados o en acogimiento, y su vida se caracteriza por una grave privación de sus derechos. Las integrantes de esos grupos suelen sufrir exclusión social, política y económica, lo que aumenta la probabilidad de que sean pobres, carezcan de educación o educación suficiente, no estén inscritas en el registro o carezcan de documentación y estén desempleadas o subempleadas, de que soporten la carga de las responsabilidades domésticas y del cuidado infantil, de que cuenten con acceso limitado a las prestaciones, la protección y los servicios del Estado, de que sufran violencia de pareja y doméstica, malos tratos y descuido en el entorno familiar, de que se encuentren en instituciones asistenciales y de que sean sometidas al matrimonio infantil, forzado y servil o a privaciones debidas a la viudez. Esas situaciones pueden verse agravadas por la carga adicional de una deficiencia o una enfermedad grave como consecuencia de la trata, incluida la explotación sexual."
+    ]
+  ],
+  "facilitación": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-1-37-p.25",
+      "CCPR-GC-37.pdf",
+      "Los Estados deben velar por que las leyes y su interpretación y aplicación no den lugar a discriminación en el disfrute del derecho de reunión pacífica, por ejemplo, por motivos de raza, color, origen étnico, edad, sexo, idioma, patrimonio, religión o creencias, opinión política o de otra índole, origen nacional o social, nacimiento, minoría, condición indígena o de otra índole, discapacidad, orientación sexual o identidad de género u otra condición. 25 Hay que poner especial empeño en garantizar la facilitación y la protección equitativa y efectiva del derecho de reunión pacífica de las personas que pertenezcan a grupos que experimentan o han experimentado discriminación o que puedan tener especiales dificultades para participar en las reuniones 26 . Además, los Estados tienen el deber de proteger a los participantes de todas las formas de malos tratos y ataques discriminatorios 27 ."
+    ]
+  ],
+  "identidad": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-1-37-p.25",
+      "CCPR-GC-37.pdf",
+      "Los Estados deben velar por que las leyes y su interpretación y aplicación no den lugar a discriminación en el disfrute del derecho de reunión pacífica, por ejemplo, por motivos de raza, color, origen étnico, edad, sexo, idioma, patrimonio, religión o creencias, opinión política o de otra índole, origen nacional o social, nacimiento, minoría, condición indígena o de otra índole, discapacidad, orientación sexual o identidad de género u otra condición. 25 Hay que poner especial empeño en garantizar la facilitación y la protección equitativa y efectiva del derecho de reunión pacífica de las personas que pertenezcan a grupos que experimentan o han experimentado discriminación o que puedan tener especiales dificultades para participar en las reuniones 26 . Además, los Estados tienen el deber de proteger a los participantes de todas las formas de malos tratos y ataques discriminatorios 27 ."
+    ]
+  ],
+  "indígenas": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-4-38-p.20",
+      "CEDAW-GR-38.pdf",
+      "La trata de mujeres y niñas tiene sus raíces en la discriminación por razón de sexo y género, la desigualdad estructural por razón de género y la feminización de la pobreza. Las mujeres y las niñas más vulnerables a la trata son las que pertenecen a grupos marginados, como las que viven en zonas rurales y remotas, las pertenecientes CEDAW/C/GC/38 7/28 a comunidades indígenas y de minorías étnicas, las mujeres y niñas con discapacidad, las mujeres y niñas en situación de migración irregular, así como las desplazadas, apátridas o en riesgo de apatridia, las mujeres y niñas refugiadas y solicitantes de asilo, incluidas aquellas cuyas solicitudes han sido rechazadas, las mujeres y niñas que viven en situaciones de conflicto o de posconflicto o que proceden de ellas y las niñas privadas de cuidados o en acogimiento, y su vida se caracteriza por una grave privación de sus derechos. Las integrantes de esos grupos suelen sufrir exclusión social, política y económica, lo que aumenta la probabilidad de que sean pobres, carezcan de educación o educación suficiente, no estén inscritas en el registro o carezcan de documentación y estén desempleadas o subempleadas, de que soporten la carga de las responsabilidades domésticas y del cuidado infantil, de que cuenten con acceso limitado a las prestaciones, la protección y los servicios del Estado, de que sufran violencia de pareja y doméstica, malos tratos y descuido en el entorno familiar, de que se encuentren en instituciones asistenciales y de que sean sometidas al matrimonio infantil, forzado y servil o a privaciones debidas a la viudez. Esas situaciones pueden verse agravadas por la carga adicional de una deficiencia o una enfermedad grave como consecuencia de la trata, incluida la explotación sexual."
+    ],
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "judiciales": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "jurídicos": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "justicia": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "leyes": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-1-37-p.25",
+      "CCPR-GC-37.pdf",
+      "Los Estados deben velar por que las leyes y su interpretación y aplicación no den lugar a discriminación en el disfrute del derecho de reunión pacífica, por ejemplo, por motivos de raza, color, origen étnico, edad, sexo, idioma, patrimonio, religión o creencias, opinión política o de otra índole, origen nacional o social, nacimiento, minoría, condición indígena o de otra índole, discapacidad, orientación sexual o identidad de género u otra condición. 25 Hay que poner especial empeño en garantizar la facilitación y la protección equitativa y efectiva del derecho de reunión pacífica de las personas que pertenezcan a grupos que experimentan o han experimentado discriminación o que puedan tener especiales dificultades para participar en las reuniones 26 . Además, los Estados tienen el deber de proteger a los participantes de todas las formas de malos tratos y ataques discriminatorios 27 ."
+    ]
+  ],
+  "marginados": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-4-38-p.20",
+      "CEDAW-GR-38.pdf",
+      "La trata de mujeres y niñas tiene sus raíces en la discriminación por razón de sexo y género, la desigualdad estructural por razón de género y la feminización de la pobreza. Las mujeres y las niñas más vulnerables a la trata son las que pertenecen a grupos marginados, como las que viven en zonas rurales y remotas, las pertenecientes CEDAW/C/GC/38 7/28 a comunidades indígenas y de minorías étnicas, las mujeres y niñas con discapacidad, las mujeres y niñas en situación de migración irregular, así como las desplazadas, apátridas o en riesgo de apatridia, las mujeres y niñas refugiadas y solicitantes de asilo, incluidas aquellas cuyas solicitudes han sido rechazadas, las mujeres y niñas que viven en situaciones de conflicto o de posconflicto o que proceden de ellas y las niñas privadas de cuidados o en acogimiento, y su vida se caracteriza por una grave privación de sus derechos. Las integrantes de esos grupos suelen sufrir exclusión social, política y económica, lo que aumenta la probabilidad de que sean pobres, carezcan de educación o educación suficiente, no estén inscritas en el registro o carezcan de documentación y estén desempleadas o subempleadas, de que soporten la carga de las responsabilidades domésticas y del cuidado infantil, de que cuenten con acceso limitado a las prestaciones, la protección y los servicios del Estado, de que sufran violencia de pareja y doméstica, malos tratos y descuido en el entorno familiar, de que se encuentren en instituciones asistenciales y de que sean sometidas al matrimonio infantil, forzado y servil o a privaciones debidas a la viudez. Esas situaciones pueden verse agravadas por la carga adicional de una deficiencia o una enfermedad grave como consecuencia de la trata, incluida la explotación sexual."
+    ],
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "migración": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-4-38-p.20",
+      "CEDAW-GR-38.pdf",
+      "La trata de mujeres y niñas tiene sus raíces en la discriminación por razón de sexo y género, la desigualdad estructural por razón de género y la feminización de la pobreza. Las mujeres y las niñas más vulnerables a la trata son las que pertenecen a grupos marginados, como las que viven en zonas rurales y remotas, las pertenecientes CEDAW/C/GC/38 7/28 a comunidades indígenas y de minorías étnicas, las mujeres y niñas con discapacidad, las mujeres y niñas en situación de migración irregular, así como las desplazadas, apátridas o en riesgo de apatridia, las mujeres y niñas refugiadas y solicitantes de asilo, incluidas aquellas cuyas solicitudes han sido rechazadas, las mujeres y niñas que viven en situaciones de conflicto o de posconflicto o que proceden de ellas y las niñas privadas de cuidados o en acogimiento, y su vida se caracteriza por una grave privación de sus derechos. Las integrantes de esos grupos suelen sufrir exclusión social, política y económica, lo que aumenta la probabilidad de que sean pobres, carezcan de educación o educación suficiente, no estén inscritas en el registro o carezcan de documentación y estén desempleadas o subempleadas, de que soporten la carga de las responsabilidades domésticas y del cuidado infantil, de que cuenten con acceso limitado a las prestaciones, la protección y los servicios del Estado, de que sufran violencia de pareja y doméstica, malos tratos y descuido en el entorno familiar, de que se encuentren en instituciones asistenciales y de que sean sometidas al matrimonio infantil, forzado y servil o a privaciones debidas a la viudez. Esas situaciones pueden verse agravadas por la carga adicional de una deficiencia o una enfermedad grave como consecuencia de la trata, incluida la explotación sexual."
+    ]
+  ],
+  "minorías": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-4-38-p.20",
+      "CEDAW-GR-38.pdf",
+      "La trata de mujeres y niñas tiene sus raíces en la discriminación por razón de sexo y género, la desigualdad estructural por razón de género y la feminización de la pobreza. Las mujeres y las niñas más vulnerables a la trata son las que pertenecen a grupos marginados, como las que viven en zonas rurales y remotas, las pertenecientes CEDAW/C/GC/38 7/28 a comunidades indígenas y de minorías étnicas, las mujeres y niñas con discapacidad, las mujeres y niñas en situación de migración irregular, así como las desplazadas, apátridas o en riesgo de apatridia, las mujeres y niñas refugiadas y solicitantes de asilo, incluidas aquellas cuyas solicitudes han sido rechazadas, las mujeres y niñas que viven en situaciones de conflicto o de posconflicto o que proceden de ellas y las niñas privadas de cuidados o en acogimiento, y su vida se caracteriza por una grave privación de sus derechos. Las integrantes de esos grupos suelen sufrir exclusión social, política y económica, lo que aumenta la probabilidad de que sean pobres, carezcan de educación o educación suficiente, no estén inscritas en el registro o carezcan de documentación y estén desempleadas o subempleadas, de que soporten la carga de las responsabilidades domésticas y del cuidado infantil, de que cuenten con acceso limitado a las prestaciones, la protección y los servicios del Estado, de que sufran violencia de pareja y doméstica, malos tratos y descuido en el entorno familiar, de que se encuentren en instituciones asistenciales y de que sean sometidas al matrimonio infantil, forzado y servil o a privaciones debidas a la viudez. Esas situaciones pueden verse agravadas por la carga adicional de una deficiencia o una enfermedad grave como consecuencia de la trata, incluida la explotación sexual."
+    ]
+  ],
+  "mujeres": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-4-38-p.20",
+      "CEDAW-GR-38.pdf",
+      "La trata de mujeres y niñas tiene sus raíces en la discriminación por razón de sexo y género, la desigualdad estructural por razón de género y la feminización de la pobreza. Las mujeres y las niñas más vulnerables a la trata son las que pertenecen a grupos marginados, como las que viven en zonas rurales y remotas, las pertenecientes CEDAW/C/GC/38 7/28 a comunidades indígenas y de minorías étnicas, las mujeres y niñas con discapacidad, las mujeres y niñas en situación de migración irregular, así como las desplazadas, apátridas o en riesgo de apatridia, las mujeres y niñas refugiadas y solicitantes de asilo, incluidas aquellas cuyas solicitudes han sido rechazadas, las mujeres y niñas que viven en situaciones de conflicto o de posconflicto o que proceden de ellas y las niñas privadas de cuidados o en acogimiento, y su vida se caracteriza por una grave privación de sus derechos. Las integrantes de esos grupos suelen sufrir exclusión social, política y económica, lo que aumenta la probabilidad de que sean pobres, carezcan de educación o educación suficiente, no estén inscritas en el registro o carezcan de documentación y estén desempleadas o subempleadas, de que soporten la carga de las responsabilidades domésticas y del cuidado infantil, de que cuenten con acceso limitado a las prestaciones, la protección y los servicios del Estado, de que sufran violencia de pareja y doméstica, malos tratos y descuido en el entorno familiar, de que se encuentren en instituciones asistenciales y de que sean sometidas al matrimonio infantil, forzado y servil o a privaciones debidas a la viudez. Esas situaciones pueden verse agravadas por la carga adicional de una deficiencia o una enfermedad grave como consecuencia de la trata, incluida la explotación sexual."
+    ]
+  ],
+  "niñas": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-4-38-p.20",
+      "CEDAW-GR-38.pdf",
+      "La trata de mujeres y niñas tiene sus raíces en la discriminación por razón de sexo y género, la desigualdad estructural por razón de género y la feminización de la pobreza. Las mujeres y las niñas más vulnerables a la trata son las que pertenecen a grupos marginados, como las que viven en zonas rurales y remotas, las pertenecientes CEDAW/C/GC/38 7/28 a comunidades indígenas y de minorías étnicas, las mujeres y niñas con discapacidad, las mujeres y niñas en situación de migración irregular, así como las desplazadas, apátridas o en riesgo de apatridia, las mujeres y niñas refugiadas y solicitantes de asilo, incluidas aquellas cuyas solicitudes han sido rechazadas, las mujeres y niñas que viven en situaciones de conflicto o de posconflicto o que proceden de ellas y las niñas privadas de cuidados o en acogimiento, y su vida se caracteriza por una grave privación de sus derechos. Las integrantes de esos grupos suelen sufrir exclusión social, política y económica, lo que aumenta la probabilidad de que sean pobres, carezcan de educación o educación suficiente, no estén inscritas en el registro o carezcan de documentación y estén desempleadas o subempleadas, de que soporten la carga de las responsabilidades domésticas y del cuidado infantil, de que cuenten con acceso limitado a las prestaciones, la protección y los servicios del Estado, de que sufran violencia de pareja y doméstica, malos tratos y descuido en el entorno familiar, de que se encuentren en instituciones asistenciales y de que sean sometidas al matrimonio infantil, forzado y servil o a privaciones debidas a la viudez. Esas situaciones pueden verse agravadas por la carga adicional de una deficiencia o una enfermedad grave como consecuencia de la trata, incluida la explotación sexual."
+    ]
+  ],
+  "orientación": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-1-37-p.25",
+      "CCPR-GC-37.pdf",
+      "Los Estados deben velar por que las leyes y su interpretación y aplicación no den lugar a discriminación en el disfrute del derecho de reunión pacífica, por ejemplo, por motivos de raza, color, origen étnico, edad, sexo, idioma, patrimonio, religión o creencias, opinión política o de otra índole, origen nacional o social, nacimiento, minoría, condición indígena o de otra índole, discapacidad, orientación sexual o identidad de género u otra condición. 25 Hay que poner especial empeño en garantizar la facilitación y la protección equitativa y efectiva del derecho de reunión pacífica de las personas que pertenezcan a grupos que experimentan o han experimentado discriminación o que puedan tener especiales dificultades para participar en las reuniones 26 . Además, los Estados tienen el deber de proteger a los participantes de todas las formas de malos tratos y ataques discriminatorios 27 ."
+    ]
+  ],
+  "pobreza": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-4-38-p.20",
+      "CEDAW-GR-38.pdf",
+      "La trata de mujeres y niñas tiene sus raíces en la discriminación por razón de sexo y género, la desigualdad estructural por razón de género y la feminización de la pobreza. Las mujeres y las niñas más vulnerables a la trata son las que pertenecen a grupos marginados, como las que viven en zonas rurales y remotas, las pertenecientes CEDAW/C/GC/38 7/28 a comunidades indígenas y de minorías étnicas, las mujeres y niñas con discapacidad, las mujeres y niñas en situación de migración irregular, así como las desplazadas, apátridas o en riesgo de apatridia, las mujeres y niñas refugiadas y solicitantes de asilo, incluidas aquellas cuyas solicitudes han sido rechazadas, las mujeres y niñas que viven en situaciones de conflicto o de posconflicto o que proceden de ellas y las niñas privadas de cuidados o en acogimiento, y su vida se caracteriza por una grave privación de sus derechos. Las integrantes de esos grupos suelen sufrir exclusión social, política y económica, lo que aumenta la probabilidad de que sean pobres, carezcan de educación o educación suficiente, no estén inscritas en el registro o carezcan de documentación y estén desempleadas o subempleadas, de que soporten la carga de las responsabilidades domésticas y del cuidado infantil, de que cuenten con acceso limitado a las prestaciones, la protección y los servicios del Estado, de que sufran violencia de pareja y doméstica, malos tratos y descuido en el entorno familiar, de que se encuentren en instituciones asistenciales y de que sean sometidas al matrimonio infantil, forzado y servil o a privaciones debidas a la viudez. Esas situaciones pueden verse agravadas por la carga adicional de una deficiencia o una enfermedad grave como consecuencia de la trata, incluida la explotación sexual."
+    ]
+  ],
+  "políticas": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "protección": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-1-37-p.25",
+      "CCPR-GC-37.pdf",
+      "Los Estados deben velar por que las leyes y su interpretación y aplicación no den lugar a discriminación en el disfrute del derecho de reunión pacífica, por ejemplo, por motivos de raza, color, origen étnico, edad, sexo, idioma, patrimonio, religión o creencias, opinión política o de otra índole, origen nacional o social, nacimiento, minoría, condición indígena o de otra índole, discapacidad, orientación sexual o identidad de género u otra condición. 25 Hay que poner especial empeño en garantizar la facilitación y la protección equitativa y efectiva del derecho de reunión pacífica de las personas que pertenezcan a grupos que experimentan o han experimentado discriminación o que puedan tener especiales dificultades para participar en las reuniones 26 . Además, los Estados tienen el deber de proteger a los participantes de todas las formas de malos tratos y ataques discriminatorios 27 ."
+    ]
+  ],
+  "raza": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-1-37-p.25",
+      "CCPR-GC-37.pdf",
+      "Los Estados deben velar por que las leyes y su interpretación y aplicación no den lugar a discriminación en el disfrute del derecho de reunión pacífica, por ejemplo, por motivos de raza, color, origen étnico, edad, sexo, idioma, patrimonio, religión o creencias, opinión política o de otra índole, origen nacional o social, nacimiento, minoría, condición indígena o de otra índole, discapacidad, orientación sexual o identidad de género u otra condición. 25 Hay que poner especial empeño en garantizar la facilitación y la protección equitativa y efectiva del derecho de reunión pacífica de las personas que pertenezcan a grupos que experimentan o han experimentado discriminación o que puedan tener especiales dificultades para participar en las reuniones 26 . Además, los Estados tienen el deber de proteger a los participantes de todas las formas de malos tratos y ataques discriminatorios 27 ."
+    ]
+  ],
+  "recursos": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "refugiados": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "religión": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-1-37-p.25",
+      "CCPR-GC-37.pdf",
+      "Los Estados deben velar por que las leyes y su interpretación y aplicación no den lugar a discriminación en el disfrute del derecho de reunión pacífica, por ejemplo, por motivos de raza, color, origen étnico, edad, sexo, idioma, patrimonio, religión o creencias, opinión política o de otra índole, origen nacional o social, nacimiento, minoría, condición indígena o de otra índole, discapacidad, orientación sexual o identidad de género u otra condición. 25 Hay que poner especial empeño en garantizar la facilitación y la protección equitativa y efectiva del derecho de reunión pacífica de las personas que pertenezcan a grupos que experimentan o han experimentado discriminación o que puedan tener especiales dificultades para participar en las reuniones 26 . Además, los Estados tienen el deber de proteger a los participantes de todas las formas de malos tratos y ataques discriminatorios 27 ."
+    ]
+  ],
+  "reparación": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "restitución": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "reunión": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-1-37-p.25",
+      "CCPR-GC-37.pdf",
+      "Los Estados deben velar por que las leyes y su interpretación y aplicación no den lugar a discriminación en el disfrute del derecho de reunión pacífica, por ejemplo, por motivos de raza, color, origen étnico, edad, sexo, idioma, patrimonio, religión o creencias, opinión política o de otra índole, origen nacional o social, nacimiento, minoría, condición indígena o de otra índole, discapacidad, orientación sexual o identidad de género u otra condición. 25 Hay que poner especial empeño en garantizar la facilitación y la protección equitativa y efectiva del derecho de reunión pacífica de las personas que pertenezcan a grupos que experimentan o han experimentado discriminación o que puedan tener especiales dificultades para participar en las reuniones 26 . Además, los Estados tienen el deber de proteger a los participantes de todas las formas de malos tratos y ataques discriminatorios 27 ."
+    ]
+  ],
+  "rurales": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-4-38-p.20",
+      "CEDAW-GR-38.pdf",
+      "La trata de mujeres y niñas tiene sus raíces en la discriminación por razón de sexo y género, la desigualdad estructural por razón de género y la feminización de la pobreza. Las mujeres y las niñas más vulnerables a la trata son las que pertenecen a grupos marginados, como las que viven en zonas rurales y remotas, las pertenecientes CEDAW/C/GC/38 7/28 a comunidades indígenas y de minorías étnicas, las mujeres y niñas con discapacidad, las mujeres y niñas en situación de migración irregular, así como las desplazadas, apátridas o en riesgo de apatridia, las mujeres y niñas refugiadas y solicitantes de asilo, incluidas aquellas cuyas solicitudes han sido rechazadas, las mujeres y niñas que viven en situaciones de conflicto o de posconflicto o que proceden de ellas y las niñas privadas de cuidados o en acogimiento, y su vida se caracteriza por una grave privación de sus derechos. Las integrantes de esos grupos suelen sufrir exclusión social, política y económica, lo que aumenta la probabilidad de que sean pobres, carezcan de educación o educación suficiente, no estén inscritas en el registro o carezcan de documentación y estén desempleadas o subempleadas, de que soporten la carga de las responsabilidades domésticas y del cuidado infantil, de que cuenten con acceso limitado a las prestaciones, la protección y los servicios del Estado, de que sufran violencia de pareja y doméstica, malos tratos y descuido en el entorno familiar, de que se encuentren en instituciones asistenciales y de que sean sometidas al matrimonio infantil, forzado y servil o a privaciones debidas a la viudez. Esas situaciones pueden verse agravadas por la carga adicional de una deficiencia o una enfermedad grave como consecuencia de la trata, incluida la explotación sexual."
+    ],
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "sexo": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-1-37-p.25",
+      "CCPR-GC-37.pdf",
+      "Los Estados deben velar por que las leyes y su interpretación y aplicación no den lugar a discriminación en el disfrute del derecho de reunión pacífica, por ejemplo, por motivos de raza, color, origen étnico, edad, sexo, idioma, patrimonio, religión o creencias, opinión política o de otra índole, origen nacional o social, nacimiento, minoría, condición indígena o de otra índole, discapacidad, orientación sexual o identidad de género u otra condición. 25 Hay que poner especial empeño en garantizar la facilitación y la protección equitativa y efectiva del derecho de reunión pacífica de las personas que pertenezcan a grupos que experimentan o han experimentado discriminación o que puedan tener especiales dificultades para participar en las reuniones 26 . Además, los Estados tienen el deber de proteger a los participantes de todas las formas de malos tratos y ataques discriminatorios 27 ."
+    ]
+  ],
+  "tenencia": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ],
+  "violencia": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-4-38-p.20",
+      "CEDAW-GR-38.pdf",
+      "La trata de mujeres y niñas tiene sus raíces en la discriminación por razón de sexo y género, la desigualdad estructural por razón de género y la feminización de la pobreza. Las mujeres y las niñas más vulnerables a la trata son las que pertenecen a grupos marginados, como las que viven en zonas rurales y remotas, las pertenecientes CEDAW/C/GC/38 7/28 a comunidades indígenas y de minorías étnicas, las mujeres y niñas con discapacidad, las mujeres y niñas en situación de migración irregular, así como las desplazadas, apátridas o en riesgo de apatridia, las mujeres y niñas refugiadas y solicitantes de asilo, incluidas aquellas cuyas solicitudes han sido rechazadas, las mujeres y niñas que viven en situaciones de conflicto o de posconflicto o que proceden de ellas y las niñas privadas de cuidados o en acogimiento, y su vida se caracteriza por una grave privación de sus derechos. Las integrantes de esos grupos suelen sufrir exclusión social, política y económica, lo que aumenta la probabilidad de que sean pobres, carezcan de educación o educación suficiente, no estén inscritas en el registro o carezcan de documentación y estén desempleadas o subempleadas, de que soporten la carga de las responsabilidades domésticas y del cuidado infantil, de que cuenten con acceso limitado a las prestaciones, la protección y los servicios del Estado, de que sufran violencia de pareja y doméstica, malos tratos y descuido en el entorno familiar, de que se encuentren en instituciones asistenciales y de que sean sometidas al matrimonio infantil, forzado y servil o a privaciones debidas a la viudez. Esas situaciones pueden verse agravadas por la carga adicional de una deficiencia o una enfermedad grave como consecuencia de la trata, incluida la explotación sexual."
+    ]
+  ],
+  "vulneraciones": [
+    [
+      "DERECHO DE LAS PERSONAS INDÍGENAS",
+      "SUJETOS",
+      "Generales",
+      "ACTIVOS",
+      "Estado",
+      "O-2-26-p.60",
+      "ESP-CESCR-GC-26 derechos sobre la tierra y los DESCA.pdf",
+      "Los Estados partes deben contar con sistemas administrativos y judiciales que aseguren la observancia efectiva de las políticas y los marcos jurídicos relativos a la tierra, y velar por que sus autoridades administrativas y judiciales actúen de conformidad con las obligaciones que incumben al Estado en virtud del Pacto. Ello requiere la adopción de medidas para prestar servicios no discriminatorios, rápidos y accesibles a todos los titulares de derechos a fin de proteger los derechos de tenencia y promover y facilitar el disfrute de esos derechos, también en las zonas rurales remotas 73 . El acceso a la justicia es fundamental: los Estados partes deberán garantizar que, incluso en las zonas remotas, esta sea accesible y asequible, en particular para las personas y los grupos desfavorecidos y marginados. Los recursos judiciales también deberán estar adaptados a las condiciones de las zonas rurales y a las necesidades de las víctimas de vulneraciones, de manera que estas reciban toda la información pertinente, así como una reparación y una indemnización adecuadas que incluyan, cuando proceda, la restitución de las tierras y el regreso de los refugiados y los desplazados internos. Como se destaca en el artículo 28 de la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas, la restitución de las tierras suele ser el principal medio de reparación de los pueblos indígenas 74 . El acceso a la justicia deberá incluir el acceso a procedimientos que permitan hacer frente a las repercusiones de las actividades empresariales, no solo en los países en los que las empresas estén domiciliadas, sino también en aquellos en que se hayan cometido las vulneraciones 75 ."
+    ]
+  ]
 }
